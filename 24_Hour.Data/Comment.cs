@@ -5,8 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace TwentyFour_Hour.Data
+namespace _24_Hour.Data
 {
     public class Comment
     {
@@ -15,7 +14,6 @@ namespace TwentyFour_Hour.Data
         [Required]
         public string Text { get; set; }
         [Required]
-        public Guid Author { get; }
-
+       public Guid Author { get; set; }
     }
 }
