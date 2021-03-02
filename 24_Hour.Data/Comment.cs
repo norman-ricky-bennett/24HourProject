@@ -14,6 +14,6 @@ namespace _24_Hour.Data
         [Required]
         public string Text { get; set; }
         [Required]
-       public Guid Author { get; set; }
+        public Guid Author { get; set; }
     }
 }
