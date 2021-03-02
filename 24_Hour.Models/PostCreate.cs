@@ -5,18 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _24_Hour.Data
+namespace _24_Hour.Models
 {
-   public class Post
+    public class PostCreate
     {
-        [Key]
-        public int Id { get; set; }
         [Required]
+        [MinLength(2, ErrorMessage = "Please enter at least 2 characters.")]
+        [MaxLength(100, ErrorMessage = "There's a maximum length of 100 characters.")]
         public string Title { get; set; }
-        [Required]
+
+        [MaxLength(10000)]
         public string Text { get; set; }
-        [Required]
-        public Guid Author { get; set; }
-        public DateTimeOffset CreatedUtc { get; set; }
     }
 }

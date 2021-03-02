@@ -5,18 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _24_Hour.Data
+namespace _24_Hour.Models
 {
-   public class Post
+    public class PostListItem
     {
-        [Key]
         public int Id { get; set; }
-        [Required]
         public string Title { get; set; }
-        [Required]
-        public string Text { get; set; }
-        [Required]
-        public Guid Author { get; set; }
+        
+        [Display(Name="Posted")]
         public DateTimeOffset CreatedUtc { get; set; }
     }
 }
