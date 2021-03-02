@@ -1,0 +1,2 @@
+C:\Users\Sterling\source\repos\New 24 hour assginment\24HourAssignment\24_Hour_Assignment.WebAPI\obj\Debug\24_Hour_Assignment.WebAPI.csprojAssemblyReference.cache
+C:\Users\Sterling\source\repos\New 24 hour assginment\24HourAssignment\24_Hour_Assignment.WebAPI\obj\Debug\24_Hour_Assignment.WebAPI.csproj.CoreCompileInputs.cache
